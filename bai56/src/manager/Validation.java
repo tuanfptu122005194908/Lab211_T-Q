@@ -18,9 +18,9 @@ public class Validation {
                 if (min <= result && result <= max) {
                     return result;
                 }
-                System.err.print("Out of range, enter again: ");
+                System.err.println("Out of range, enter again: ");
             } catch (NumberFormatException e) {
-                System.err.print("Wrong fomat, please enter a number!");
+                System.err.println("Wrong fomat, please enter a number!");
             }
 
         }
@@ -35,9 +35,9 @@ public class Validation {
                 if (min <= res && res <= max) {
                     return res;
                 }
-                System.err.print("Out of range, enter again: ");
+                System.err.println("Out of range, enter again: ");
             } catch (NumberFormatException e) {
-                System.err.print("Wrong fomat, please enter a number!");
+                System.err.println("Wrong fomat, please enter a number!");
             }
 
         }
@@ -75,4 +75,6 @@ public class Validation {
             }
         }
     }
+
+    
 }

@@ -20,7 +20,7 @@ public class SalaryHistory {
         this.workerAge = w.getAge();
         this.salary = salary;
         this.status = status;
-        this.date = new SimpleDateFormat("dd/MM/yyyy").format(new Date());
+        this.date = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date());
 
     }
 
